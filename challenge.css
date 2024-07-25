@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+}
+.bigrow1, .bigrow3{
+  border: 1px solid black;
+  width: 100%;
+  height: 20%;
+}
+.bigrow2{
+  display: flex;
+  width: 100%;
+  height: 60%;
+  flex-direction: row;
+}
+.bigcol1, .bigcol2, .bigcol4{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+.bigcol1{
+  border: 1px solid black;
+}
+.bigcol3{
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
+.smallrow1{
+  border: 1px black solid;
+  flex-grow: 1;
+}
+.smallrow2, .smallrow4{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row
+}
+.smallerrow{
+  border: 1px solid black;
+  flex-grow: 1;
+}
+.smallrow3{
+  flex-grow: 2;
+  border: 1px solid black;
+}
