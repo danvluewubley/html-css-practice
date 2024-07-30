@@ -1,0 +1,17 @@
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  border: 3px solid black
+}
+
+.row{
+  height: 100%;
+}
+
+[class*="col-black"] {
+  background-color: black;
+}
